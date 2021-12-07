@@ -16,7 +16,8 @@
     
     body{
       background-color: hsl(217, 54%, 11%);
-      font-family: 'Outfit', sans-serif;
+      font-family: 'Outfit';
+      font-size: 18px;
     }
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
@@ -29,33 +30,61 @@
       background-color:hsl(216, 50%, 16%) ;
       color: hsl(215, 32%, 27%);
       border-radius: 20px;
+      padding: 2%;
     }
    img{
-     width: 90%;height: 50%;
-     display: block;
-     margin: 0 auto;
-      border-radius: 50px;
-      padding-top: 50px;
-     border-radius: 15px;
+    width: 100%;height: 50%;
+    display: block;
+    
+   
+    border-radius:8%;
+     
     }
-
+    h1,p{
+      color:hsl(0, 0%, 100%);
+      
+    }
+    .flex{
+      display: flex;
+      justify-content: space-between;
+    }
+    .avatar{
+      width: 10%;
+      border: 1px solid hsl(0, 0%, 100%);
+      border-radius: 100%;
+    }
+    body > div.main > div:nth-child(6){
+      display: flex;
+      justify-content:left;
+    }
 
   </style>
 </head>
 <body>
   <div class="main">
-      <div id="image">
+      
         <img src="./images/image-equilibrium.jpg" alt="mainOne">  
-      </div>
+      
     
-    Equilibrium #3429
+   <h1>Equilibrium #3429</h1> 
 
-  Our Equilibrium collection promotes balance and calm.
-
-  0.041 ETH
-  3 days left
+  <p>Equilibrium collection promotes balance and calm.</p>
+  <div class="flex">
+    <div>  
+      <div><svg width="11" height="18" xmlns="http://www.w3.org/2000/svg"><path d="M11 10.216 5.5 18 0 10.216l5.5 3.263 5.5-3.262ZM5.5 0l5.496 9.169L5.5 12.43 0 9.17 5.5 0Z" fill="#00FFF8"/></svg>
+        0.041 ETH</div>
+    </div>
+    <div>
+      <div><svg width="17" height="17" xmlns="http://www.w3.org/2000/svg"><path d="M8.305 2.007a6.667 6.667 0 1 0 0 13.334 6.667 6.667 0 0 0 0-13.334Zm2.667 7.334H8.305a.667.667 0 0 1-.667-.667V6.007a.667.667 0 0 1 1.334 0v2h2a.667.667 0 0 1 0 1.334Z" fill="#8BACD9"/></svg>
+        3 days left</div>
+    </div> 
+  </div>
+  <hr>
+  <div><img class="avatar" src="./images/image-avatar.png" alt="avatar image">
+    <div>Creation of Jules Wyvern
+    </div>
+  </div>
   
-  Creation of Jules Wyvern
   </div>
   
 
