@@ -26,9 +26,9 @@
     
     .main{
       width: 24.16%;
-      margin: 0 auto;
+      margin: auto ;
       background-color:hsl(216, 50%, 16%) ;
-      color: hsl(215, 32%, 27%);
+      color: hsl(215, 51%, 70%);
       border-radius: 20px;
       padding: 2%;
     }
@@ -40,7 +40,7 @@
     border-radius:8%;
      
     }
-    h1,p{
+    h1{
       color:hsl(0, 0%, 100%);
       
     }
@@ -57,7 +57,11 @@
       display: flex;
       justify-content:left;
     }
-
+    span{color:hsl(0, 0%, 100%);}
+    div.flex > div:nth-child(1) > div{color:hsl(178, 100%, 50%);}
+    
+      hr { border-color: hsl(215, 32%, 27%); }  
+    
   </style>
 </head>
 <body>
@@ -68,7 +72,7 @@
     
    <h1>Equilibrium #3429</h1> 
 
-  <p>Equilibrium collection promotes balance and calm.</p>
+  <p>Our Equilibrium collection promotes balance and calm.</p>
   <div class="flex">
     <div>  
       <div><svg width="11" height="18" xmlns="http://www.w3.org/2000/svg"><path d="M11 10.216 5.5 18 0 10.216l5.5 3.263 5.5-3.262ZM5.5 0l5.496 9.169L5.5 12.43 0 9.17 5.5 0Z" fill="#00FFF8"/></svg>
@@ -81,7 +85,7 @@
   </div>
   <hr>
   <div><img class="avatar" src="./images/image-avatar.png" alt="avatar image">
-    <div>Creation of Jules Wyvern
+    <div>Creation of <span> Jules Wyvern</span>
     </div>
   </div>
   
@@ -90,7 +94,7 @@
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="https://github.com/BlackWidmoYu/Fronend-Mastery">BlackWidmoYu</a>.
   </div>
 </body>
 </html>
